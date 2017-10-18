@@ -1,0 +1,2 @@
+# SYPlaceHolderViewManager
+这个类主要针对的就是在还在网络请求的时候，页面的结构比较乱，给用户一种loading或者是响应的类
