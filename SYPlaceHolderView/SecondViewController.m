@@ -7,24 +7,23 @@
 //
 
 #import "SecondViewController.h"
-#import "SYPlaceHolderViewManager.h"
+//#import "SYPlaceHolderViewManager.h"
 
 @interface SecondViewController ()
-@property (nonatomic,strong)SYPlaceHolderViewManager *placeholderManager;
 @end
 
 @implementation SecondViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor yellowColor];
     
-    _placeholderManager = [[SYPlaceHolderViewManager alloc]initWithSuperView:self.view];
-    _placeholderManager.type = PlaceHoderTypeTextImage;
-    _placeholderManager.state = PlaceHoderStateLoading;
-    _placeholderManager.retryButtonBlock = ^{
-        NSLog(@"重试");
-    };
+    self.placeholderManager.state = PlaceHoderStateLoading;
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        self.placeholderManager.state = PlaceHoderStateNormal;
+    });
 }
 
 - (void)didReceiveMemoryWarning {

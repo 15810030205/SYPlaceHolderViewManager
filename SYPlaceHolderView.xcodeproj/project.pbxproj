@@ -35,6 +35,9 @@
 		B71A34FF1F973C9800405B37 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B71A34EE1F973C9800405B37 /* UIImageView+WebCache.m */; };
 		B71A35001F973C9800405B37 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B71A34F01F973C9800405B37 /* UIView+WebCacheOperation.m */; };
 		B71A35031F97439300405B37 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = B71A35021F97439300405B37 /* loading.gif */; };
+		B71A35061F9747DB00405B37 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71A35051F9747DB00405B37 /* ThirdViewController.m */; };
+		B71A35091F9747EB00405B37 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71A35081F9747EB00405B37 /* FourthViewController.m */; };
+		B71A350C1F97497400405B37 /* SYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71A350B1F97497400405B37 /* SYRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +113,12 @@
 		B71A34EF1F973C9800405B37 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		B71A34F01F973C9800405B37 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		B71A35021F97439300405B37 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		B71A35041F9747DB00405B37 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		B71A35051F9747DB00405B37 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		B71A35071F9747EB00405B37 /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		B71A35081F9747EB00405B37 /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		B71A350A1F97497400405B37 /* SYRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYRootViewController.h; sourceTree = "<group>"; };
+		B71A350B1F97497400405B37 /* SYRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,8 +174,14 @@
 				B71A34901F97037200405B37 /* AppDelegate.m */,
 				B71A34921F97037200405B37 /* ViewController.h */,
 				B71A34931F97037200405B37 /* ViewController.m */,
+				B71A350A1F97497400405B37 /* SYRootViewController.h */,
+				B71A350B1F97497400405B37 /* SYRootViewController.m */,
 				B71A34CC1F972C6100405B37 /* SecondViewController.h */,
 				B71A34CD1F972C6100405B37 /* SecondViewController.m */,
+				B71A35041F9747DB00405B37 /* ThirdViewController.h */,
+				B71A35051F9747DB00405B37 /* ThirdViewController.m */,
+				B71A35071F9747EB00405B37 /* FourthViewController.h */,
+				B71A35081F9747EB00405B37 /* FourthViewController.m */,
 				B71A34951F97037200405B37 /* Main.storyboard */,
 				B71A34981F97037200405B37 /* Assets.xcassets */,
 				B71A349A1F97037200405B37 /* LaunchScreen.storyboard */,
@@ -381,12 +396,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71A350C1F97497400405B37 /* SYRootViewController.m in Sources */,
 				B71A34CE1F972C6100405B37 /* SecondViewController.m in Sources */,
 				B71A34FE1F973C9800405B37 /* UIImageView+HighlightedWebCache.m in Sources */,
 				B71A34FF1F973C9800405B37 /* UIImageView+WebCache.m in Sources */,
 				B71A34FD1F973C9800405B37 /* UIImage+WebP.m in Sources */,
 				B71A34F91F973C9800405B37 /* SDWebImagePrefetcher.m in Sources */,
 				B71A34941F97037200405B37 /* ViewController.m in Sources */,
+				B71A35091F9747EB00405B37 /* FourthViewController.m in Sources */,
 				B71A34F51F973C9800405B37 /* SDWebImageDecoder.m in Sources */,
 				B71A34F61F973C9800405B37 /* SDWebImageDownloader.m in Sources */,
 				B71A349F1F97037200405B37 /* main.m in Sources */,
@@ -397,6 +414,7 @@
 				B71A34CB1F972AF300405B37 /* SYPlaceHolderViewManager.m in Sources */,
 				B71A34F71F973C9800405B37 /* SDWebImageDownloaderOperation.m in Sources */,
 				B71A34FB1F973C9800405B37 /* UIImage+GIF.m in Sources */,
+				B71A35061F9747DB00405B37 /* ThirdViewController.m in Sources */,
 				B71A34F41F973C9800405B37 /* SDWebImageCompat.m in Sources */,
 				B71A34F21F973C9800405B37 /* NSData+ImageContentType.m in Sources */,
 				B71A34911F97037200405B37 /* AppDelegate.m in Sources */,

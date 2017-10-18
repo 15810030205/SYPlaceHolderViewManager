@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FourthViewController.h
 //  SYPlaceHolderView
 //
 //  Created by haosy on 2017/10/18.
@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "SYRootViewController.h"
 
-@interface SecondViewController : SYRootViewController
+@interface FourthViewController : SYRootViewController
 
 @end
